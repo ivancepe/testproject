@@ -3,7 +3,7 @@ const cors = require('cors');
 const crypto = require('crypto');
 
 const app = express();
-const PORT = 3000;
+const PORT = 8080;
 
 // Middleware
 app.use(cors()); // Allows requests from the frontend's origin
